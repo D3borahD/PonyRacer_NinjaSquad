@@ -92,12 +92,8 @@ texte "Races"
 
 👉 Sinon les tests échoueront
 
-
-
 ![2_templates_add-menu](doc/2_templates_add-menu.png)
 ![2_templates_add-menu](doc/2_templates_add-menu-open.png)
-
-
 
 <details>
   <summary>🔧 Signal</summary>

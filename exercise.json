@@ -1,1 +1,1 @@
-{"pack":"85","id":2,"title":"Templates","specs":[{"name":"src/app/app.spec.ts","hash":"85ff968e0a6da34909856c6cc034737c319a25c3185e997c116ed5ce33aee994"},{"name":"src/app/menu/menu.spec.ts","hash":"083278198cb7c276f42a42e895f6bb6b6900ad48a7d92583e8f7b175e954e575"}]}
+{"pack":"86","id":3,"title":"List of races","specs":[{"name":"src/app/app.spec.ts","hash":"2703fdc4eeae7e919558dd3f3dc1106492142d308d229977e5e269cab1e73b21"},{"name":"src/app/races/races.spec.ts","hash":"702a0fab08fb4be0b1dd9974bf44475f9fa5a4508b6a21a2048527327ce881d0"}]}
