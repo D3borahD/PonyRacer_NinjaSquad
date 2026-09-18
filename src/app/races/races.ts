@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import {Race} from "../race/race";
+import { Race } from '../race/race';
 
 @Component({
   selector: 'pr-races',
