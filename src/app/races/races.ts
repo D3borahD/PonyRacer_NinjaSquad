@@ -5,6 +5,7 @@ import { Race } from '../race/race';
   selector: 'pr-races',
   imports: [Race],
   templateUrl: './races.html',
+  standalone: true,
   styleUrl: './races.css'
 })
 export class Races {

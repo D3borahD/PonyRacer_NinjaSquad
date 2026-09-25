@@ -4,6 +4,7 @@ import { Component, signal } from '@angular/core';
   selector: 'pr-menu',
   imports: [],
   templateUrl: './menu.html',
+  standalone: true,
   styleUrl: './menu.css'
 })
 export class Menu {
