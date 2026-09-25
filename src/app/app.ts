@@ -6,6 +6,7 @@ import { Races } from './races/races';
   selector: 'pr-root',
   imports: [Menu, Races],
   templateUrl: './app.html',
+  standalone: true,
   styleUrl: './app.css'
 })
 export class App {

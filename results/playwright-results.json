@@ -88,12 +88,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 368,
+                      "duration": 367,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-18T10:00:44.553Z",
+                      "startTime": "2026-09-25T07:21:19.010Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -122,12 +122,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 464,
+                      "duration": 465,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-18T10:00:44.562Z",
+                      "startTime": "2026-09-25T07:21:19.010Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -156,12 +156,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 539,
+                      "duration": 567,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-18T10:00:44.556Z",
+                      "startTime": "2026-09-25T07:21:19.010Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -193,7 +193,7 @@
           "specs": [
             {
               "title": "should display a race list",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -206,144 +206,57 @@
                     {
                       "workerIndex": 3,
                       "parallelIndex": 3,
-                      "status": "failed",
-                      "duration": 5505,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n\n    at /Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts:10:52",
-                        "location": {
-                          "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                          "column": 52,
-                          "line": 10
-                        },
-                        "snippet": "   8 |   test('should display a race list', async ({ page }) => {\n   9 |     await expect(page.getByRole('heading', { level: 2 })).toHaveCount(2);\n> 10 |     await expect(page.locator('.container ul li')).toHaveCount(10);\n     |                                                    ^\n  11 |   });\n  12 | });\n  13 |"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                            "column": 52,
-                            "line": 10
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n\n\n   8 |   test('should display a race list', async ({ page }) => {\n   9 |     await expect(page.getByRole('heading', { level: 2 })).toHaveCount(2);\n> 10 |     await expect(page.locator('.container ul li')).toHaveCount(10);\n     |                                                    ^\n  11 |   });\n  12 | });\n  13 |\n    at /Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts:10:52"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 465,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-09-18T10:00:44.557Z",
+                      "startTime": "2026-09-25T07:21:19.020Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/test-results/races.e2e-spec.ts-Races-page-should-display-a-race-list-chromium/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                        "column": 52,
-                        "line": 10
-                      }
-                    },
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 5241,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n\n    at /Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts:10:52",
-                        "location": {
-                          "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                          "column": 52,
-                          "line": 10
-                        },
-                        "snippet": "   8 |   test('should display a race list', async ({ page }) => {\n   9 |     await expect(page.getByRole('heading', { level: 2 })).toHaveCount(2);\n> 10 |     await expect(page.locator('.container ul li')).toHaveCount(10);\n     |                                                    ^\n  11 |   });\n  12 | });\n  13 |"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                            "column": 52,
-                            "line": 10
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n\n\n   8 |   test('should display a race list', async ({ page }) => {\n   9 |     await expect(page.getByRole('heading', { level: 2 })).toHaveCount(2);\n> 10 |     await expect(page.locator('.container ul li')).toHaveCount(10);\n     |                                                    ^\n  11 |   });\n  12 | });\n  13 |\n    at /Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts:10:52"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 1,
-                      "startTime": "2026-09-18T10:00:51.376Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/test-results/races.e2e-spec.ts-Races-page-should-display-a-race-list-chromium-retry1/error-context.md"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/test-results/races.e2e-spec.ts-Races-page-should-display-a-race-list-chromium-retry1/trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                        "column": 52,
-                        "line": 10
-                      }
-                    },
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 5178,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n\n    at /Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts:10:52",
-                        "location": {
-                          "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                          "column": 52,
-                          "line": 10
-                        },
-                        "snippet": "   8 |   test('should display a race list', async ({ page }) => {\n   9 |     await expect(page.getByRole('heading', { level: 2 })).toHaveCount(2);\n> 10 |     await expect(page.locator('.container ul li')).toHaveCount(10);\n     |                                                    ^\n  11 |   });\n  12 | });\n  13 |"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                            "column": 52,
-                            "line": 10
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.container ul li')\nExpected: \u001b[32m10\u001b[39m\nReceived: \u001b[31m11\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.container ul li')\u001b[22m\n\u001b[2m    9 × locator resolved to 11 elements\u001b[22m\n\u001b[2m      - unexpected value \"11\"\u001b[22m\n\n\n   8 |   test('should display a race list', async ({ page }) => {\n   9 |     await expect(page.getByRole('heading', { level: 2 })).toHaveCount(2);\n> 10 |     await expect(page.locator('.container ul li')).toHaveCount(10);\n     |                                                    ^\n  11 |   });\n  12 | });\n  13 |\n    at /Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts:10:52"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 2,
-                      "startTime": "2026-09-18T10:00:57.742Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/test-results/races.e2e-spec.ts-Races-page-should-display-a-race-list-chromium-retry2/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/deborah/Documents/dev/NinjaSquad/ponyracer/e2e/races.e2e-spec.ts",
-                        "column": 52,
-                        "line": 10
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "d00a11b7894905e42f04-e41146bfc8539ce11a3a",
               "file": "races.e2e-spec.ts",
               "line": 8,
+              "column": 7
+            },
+            {
+              "title": "should display ponies",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 150,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-25T07:21:20.102Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d00a11b7894905e42f04-14adc6b46aba0cae62c5",
+              "file": "races.e2e-spec.ts",
+              "line": 12,
               "column": 7
             }
           ]
@@ -353,11 +266,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-09-18T10:00:43.618Z",
-    "duration": 19749.147,
-    "expected": 3,
+    "startTime": "2026-09-25T07:21:18.225Z",
+    "duration": 2128.12,
+    "expected": 5,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
