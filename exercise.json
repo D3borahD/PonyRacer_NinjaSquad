@@ -1,1 +1,1 @@
-{"pack":"86","id":5,"title":"Pony component","specs":[{"name":"src/app/race/race.spec.ts","hash":"e1395ae5197b205e2f7695a4801d707191b461537b0bbd0aa47a2480db205c90"},{"name":"src/app/pony/pony.spec.ts","hash":"f7609db21d70c20408e13a995d0c283a68c3dfa3e3424fe3ee0b4d9351349a03"}]}
+{"pack":"86","id":7,"title":"Custom pipe with date-fns","specs":[{"name":"src/app/from-now-pipe.spec.ts","hash":"28f9d72770f4d9ca91e7d2951db67256af177b22c6ee8699118c0e25506c4b18"},{"name":"src/app/race/race.spec.ts","hash":"83b903411347aa764e441acdb0f63a1247fcd55aa95de062a3b7bff603868a0a"}]}
