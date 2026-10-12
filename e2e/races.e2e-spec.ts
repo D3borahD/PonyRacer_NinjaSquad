@@ -7,6 +7,9 @@ test.describe('Races page', () => {
 
   test('should display a race list', async ({ page }) => {
     await expect(page.getByRole('heading', { level: 2 })).toHaveCount(2);
+    const paragraphs = page.getByRole('paragraph');
+    await expect(paragraphs).toHaveCount(2);
+    await expect(paragraphs.first()).toContainText('ago');
   });
 
   test('should display ponies', async ({ page }) => {

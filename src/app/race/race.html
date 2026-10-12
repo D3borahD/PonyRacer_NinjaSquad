@@ -1,4 +1,5 @@
 <h2>{{ raceModel().name }}</h2>
+<p>{{ raceModel().startInstant | fromNow }}</p>
 <ul>
   @for (pony of raceModel().ponies; track pony.id) {
     <li>{{ pony.name }}</li>
