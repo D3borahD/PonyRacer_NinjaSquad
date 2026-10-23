@@ -1,1 +1,1 @@
-{"pack":"86","id":8,"title":"Race service","specs":[{"name":"src/app/race-service.spec.ts","hash":"86f83fa164803a0e39a8bb2c185ed91250c1f3ba734eb14e81ac667ca9ee8fd9"},{"name":"src/app/races/races.spec.ts","hash":"b2bef5068aadea42b0d3385ace88bb26666cb5f683a7480dc2f5d7b55065c7b9"}]}
+{"pack":"86","id":10,"title":"Observables with RxJS","specs":[{"name":"src/app/race-service.spec.ts","hash":"7b1f6e102427bf19b5053557e2da3952044a7f9da186367fbe0ebfce4f39913e"},{"name":"src/app/races/races.spec.ts","hash":"f8879727d6e102a2139861d63e21a8ea769a11c18f2fdeb853a3a889b2614631"}]}
