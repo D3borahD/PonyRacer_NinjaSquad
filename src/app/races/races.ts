@@ -1,6 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { Race } from '../race/race';
 import { RaceService } from '../race-service';
+import { toSignal } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'pr-races',
@@ -12,5 +13,5 @@ import { RaceService } from '../race-service';
 export class Races {
   private readonly racesService: RaceService = inject(RaceService);
 
-  protected readonly races = this.racesService.list();
+  protected readonly races = toSignal(this.racesService.list());
 }
